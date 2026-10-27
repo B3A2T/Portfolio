@@ -354,3 +354,96 @@ body {
 .challenge-card p {
     line-height: 1.8;
 }
+
+
+.project-skills {
+    padding: 60px 10%;
+}
+
+.development-progress {
+    padding: 60px 10%;
+}
+
+.development-progress h2 {
+    color: #49b9ff;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.progress-list {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(min(250px, 100%), 1fr)
+    );
+    gap: 20px;
+}
+
+.progress-item {
+    background-color: #111b2e;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.progress-item h3 {
+    margin: 15px 0;
+}
+
+.progress-item p {
+    line-height: 1.7;
+}
+
+.progress-status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.progress-status.complete {
+    background-color: #174d39;
+    color: #78e8a8;
+}
+
+.progress-status.pending {
+    background-color: #493b1c;
+    color: #ffd37b;
+}
+
+.project-skills h2 {
+    color: #49b9ff;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-container span {
+    background-color: #182b46;
+    color: #49b9ff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.spiderwalker-intro {
+    padding: 90px 10% 60px;
+}
+
+.spiderwalker-intro h1 {
+    font-size: clamp(36px, 5vw, 64px);
+    line-height: 1.15;
+    margin-bottom: 24px;
+}
+
+.spiderwalker-intro p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 750px;
+    color: #c2ccda;
+}
