@@ -285,7 +285,7 @@ body {
 
 
 .mechanical-design {
-    padding: 60px 10%;
+    padding: 40px 10%;
 }
 
 .mechanical-design h2 {
@@ -324,7 +324,7 @@ body {
 
 
 .engineering-challenges {
-    padding: 60px 10%;
+    padding: 40px 10%;
 }
 
 .engineering-challenges h2 {
@@ -357,11 +357,11 @@ body {
 
 
 .project-skills {
-    padding: 60px 10%;
+    padding: 40px 10%;
 }
 
 .development-progress {
-    padding: 60px 10%;
+    padding: 40px 10%;
 }
 
 .development-progress h2 {
@@ -432,7 +432,7 @@ body {
 }
 
 .spiderwalker-intro {
-    padding: 90px 10% 60px;
+    padding: 70px 10% 30px;
 }
 
 .spiderwalker-intro h1 {
@@ -446,4 +446,28 @@ body {
     line-height: 1.8;
     max-width: 750px;
     color: #c2ccda;
+}
+
+
+.design-figure {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+    margin: 0;
+}
+
+.design-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #2b3a55;
+}
+
+.design-figure figcaption {
+    margin-top: 12px;
+    color: #9aaac0;
+    font-size: 14px;
+    text-align: center;
 }
